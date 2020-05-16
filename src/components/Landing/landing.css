@@ -1,15 +1,29 @@
-.landing-container {
-    width: 100%;
+.content {
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 25px;
+    color: #db7093;
     height: 100vh;
     display: flex;
     justify-content: center;
-    justify-items: center;
     align-items: center;
     flex-direction: column;
-    background-color: #fffafa;
-    font-family: monospace;
-    font-weight: 600;
-    font-size: 15px;
-    color: #db7093;
-
 }
+
+.separator {
+    margin: 30px 0;
+    width: 600px;
+    border: 10px dashed #FDD661;
+    border-radius: 30px;
+}
+.social {
+    display: flex;
+}
+.social-icon {
+    color: #db7093;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+
