@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
 
 import { getRandom } from '../../utils/Utils';
+import { URLS } from '../../constants/contants';
 
 import './DailyQuote.scss';
 
@@ -8,7 +9,7 @@ const DailyQuote = () => {
     const [dailyQuote, setDaylyQuote] = useState('');
 
     useEffect(()=> {
-        fetch("https://type.fit/api/quotes").then((response) => {
+        fetch(URLS.API_URL.QUOTES).then((response) => {
             return response.json()
         }).then((data)=>{
             const dailyQuote = getRandom(data);
@@ -20,7 +21,7 @@ const DailyQuote = () => {
     
     return (
         <div className='dailyQuoteContainer'>
-            <h1>"{dailyQuote?.text}"</h1>
+            <h1>{dailyQuote && (`"${dailyQuote?.text}"`)}</h1>
             <div className='dailyQuoteContainer_separatorText'></div>
             <p>- {dailyQuote?.author ? dailyQuote?.author : 'No Author'} -</p>
         </div>

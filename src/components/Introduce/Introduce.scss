@@ -1,5 +1,14 @@
-.helloText {
-    font-weight: bold;
+.helloTextContainer {
+    margin-bottom: 0;
+    .helloText {
+        font-weight: bold;
+    }
+}
+
+.email {
+    color: rgba(49, 58, 66, 0.5);
+    margin-bottom: 15px;
+    vertical-align: -webkit-baseline-middle;
 }
 
 .contactSocialMedia {
@@ -18,8 +27,13 @@
 .socialIcon {
     color: rgba(49,58,66, 0.5);
     font-size: 20px;
-    &:hover{
+
+    &:hover {
         color: #63cabe;
+    }
+
+    &.email {
+        font-size: 10px;
     }
 
 }
