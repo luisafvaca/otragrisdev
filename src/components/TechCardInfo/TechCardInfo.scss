@@ -1,0 +1,14 @@
+.techCardInfo {
+    padding: 10px 50px 50px 50px;
+    &-tag {
+        border-radius: 15px;
+        display: inline-block;
+        font-size: 10px;
+        padding: 10px;
+        background-color: #b79cff;
+        font-weight: bold;
+    }
+    &-content {
+        padding: 10px 0;
+    }
+}
