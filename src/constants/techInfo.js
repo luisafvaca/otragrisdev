@@ -50,8 +50,8 @@ export const TECH_INFO = {
     SCRUM: {
         name: 'Scrum',
         category: 'SCRUM',
-        about: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at nulla volutpat, convallis velit non, accumsan dui. Vestibulum id erat vitae sapien semper placerat. Maecenas justo justo, porttitor non gravida in, vestibulum sed nibh. Nam elit quam, hendrerit eu ex quis, iaculis molestie libero. Nunc a pharetra nunc. Donec molestie magna sit amet turpis molestie, a dapibus velit aliquam. Aliquam a nibh at libero fermentum facilisis vel in massa. Aenean volutpat elementum consequat. Pellentesque iaculis lacus ac mi volutpat euismod. Aliquam ornare tristique dignissim. Nunc quis laoreet arcu, ut sollicitudin augue.',
-        getStartUrl: ''
+        about: 'Scrum is a framework within which people can address complex adaptive problems, while productively and creatively delivering products of the highest possible value.',
+        getStartUrl: 'https://www.youtube.com/watch?v=gvfl1BMAPNM'
     },
     CSS: {
         name: 'CSS',
