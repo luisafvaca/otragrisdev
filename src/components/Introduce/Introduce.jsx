@@ -7,7 +7,7 @@ import './Introduce.scss';
 const Introduce = () => { 
     return (
         <div>
-            <p><span className='helloText'>Hello humans! <span role='img' aria-label='marcian'>👽</span></span> I'm Lu and I'm front-end developer base on Medellín, Colombia <span role='img' aria-label='flag'>🇨🇴</span></p>
+            <p><span className='helloText'>Hello humans! <span role='img' aria-label='marcian'>👽</span></span> I'm Lu and I'm front-end developer at Globant base on Medellín, Colombia <span role='img' aria-label='flag'>🇨🇴</span></p>
             <div className='contactSocialMedia'>
                 <a href="https://github.com/luisafvaca" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className="socialIcon" icon={faGithubAlt} /></a>
                 <a href="https://www.instagram.com/otra_gris" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className="socialIcon" icon={faInstagram} /></a>
