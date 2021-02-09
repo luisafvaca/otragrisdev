@@ -34,3 +34,20 @@
         }
     }
 }
+
+.tootltipContainer {
+    display: flex;
+    justify-content: space-between;
+
+    .tooltipBtn {
+        background-color: transparent !important;
+        border: none !important;
+        box-shadow: none !important;
+        &:focus {
+            outline: 0 !important;;
+        }
+        .tooltipIcon { 
+            color: rgba(49, 58, 66, 0.5);
+        }
+    }
+}
