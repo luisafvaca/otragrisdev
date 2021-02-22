@@ -22,7 +22,7 @@ const DailyQuote = () => {
     return (
         <div className='dailyQuoteContainer'>
             <h1>{dailyQuote && (`"${dailyQuote?.text}"`)}</h1>
-            <div className='dailyQuoteContainer_separatorText'></div>
+            <div className='dailyQuoteContainerseparatorText'></div>
             <p>- {dailyQuote?.author ? dailyQuote?.author : 'No Author'} -</p>
         </div>
     )

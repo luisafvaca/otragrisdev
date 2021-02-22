@@ -1,19 +1,14 @@
-.content {
+.interviewQuestions {
     color: #000 !important;
     font-size: 14px;
     padding: 80px 40px;
     height: 100vh;
-
-    &-secret {
-        position: fixed;
-        bottom: 15px;
-        right: 15px;
+    &-goBackBtn {
+        font-size: 20px;
         cursor: pointer;
         color: rgba(49,58,66, 0.5);
-        font-size: 20px;
         &:hover {
-            color: #17a2b8;
+           color: #b79cff
         }
     }
 }
-

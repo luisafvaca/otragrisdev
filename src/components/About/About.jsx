@@ -41,16 +41,16 @@ const About = () => {
 
     return (
         <div>
-            <Container>
+            <Container className={"about"}>
                 {techInfoToShow && (
                     <Dialog isOpen={isOpenDialog} handleClose={closeDialogHandler}>
                         <TechCardInfo info={techInfoToShow} />
                     </Dialog>
                 )}
                 
-                <Row className='quoteCard'>
+                <Row className='about-quoteCard'>
                     <Col md={5} className='information'>
-                        <span className='tootltipContainer'>
+                        <span className='about-tootltipContainer'>
                             <h1>I like to work with:</h1>
                             <OverlayTrigger
                                 trigger='click'

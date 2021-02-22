@@ -1,12 +1,32 @@
-.quoteCard {
-    color: #000;
-    .information {
-        margin: 10px 0;
-        .aboutText {
-            margin: 10px;
+.about {
+    &-quoteCard {
+        color: #000;
+        .information {
+            margin: 10px 0;
+            .aboutText {
+                margin: 10px;
+            }
+        }
+    }
+
+    &-tootltipContainer {
+        display: flex;
+        justify-content: space-between;
+    
+        .tooltipBtn {
+            background-color: transparent !important;
+            border: none !important;
+            box-shadow: none !important;
+            &:focus {
+                outline: 0 !important;;
+            }
+            .tooltipIcon { 
+                color: rgba(49, 58, 66, 0.5);
+            }
         }
     }
 }
+
 
 .tag {
     display: inline-block;
@@ -35,19 +55,4 @@
     }
 }
 
-.tootltipContainer {
-    display: flex;
-    justify-content: space-between;
 
-    .tooltipBtn {
-        background-color: transparent !important;
-        border: none !important;
-        box-shadow: none !important;
-        &:focus {
-            outline: 0 !important;;
-        }
-        .tooltipIcon { 
-            color: rgba(49, 58, 66, 0.5);
-        }
-    }
-}

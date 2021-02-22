@@ -10,8 +10,9 @@ const Dialog = ({isOpen, children, handleClose}) => {
         <Modal
             show={isOpen}
             onHide={handleClose}
+            className='dialog'
         >   
-            <div className='closeButton'>
+            <div className='dialog-closeButton'>
                 <Button 
                     variant='outline-secondary'
                     onClick={handleClose}
