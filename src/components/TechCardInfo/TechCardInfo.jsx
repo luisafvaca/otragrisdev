@@ -17,6 +17,7 @@ const TechCardInfo = ({info}) => {
                     variant='outline-info'
                     href={info.getStartUrl}
                     target='_blank'
+                    aria-label={`button-${info.name}`}
                 >
                     {`Get Start Whit ${info.name}`}
                 </Button>

@@ -34,7 +34,7 @@ const About = () => {
         return technologies.map((tech, id) => {
             const randomColor = getRandom(colors);
             return (
-                <div key={id} className={`tag ${randomColor}`} onClick={() => openDialogHandler(tech)}>{tech}</div>
+                <div role='button' key={id} className={`tag ${randomColor}`} onClick={() => openDialogHandler(tech)}>{tech}</div>
             )
         })
     }
@@ -63,7 +63,7 @@ const About = () => {
                                     </Popover>
                                 }
                             >
-                                <Button className='tooltipBtn'>
+                                <Button className='tooltipBtn' aria-label="Info">
                                     <FontAwesomeIcon className='tooltipIcon' icon={faInfoCircle} />
                                 </Button>
                             </OverlayTrigger>
